@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ----------------body--------------------*/
+ 
+body {
+    background-color: #f9f9f9;
+    user-select: none;
+}
+
+/* -----------------page-------------------*/
+ 
+#page {
+    width: 1065px;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #fff;  
+    box-shadow: 1px solid #dbdbdb; 
+}
+
+/* ---------------logo---------------------*/
+ 
+.logo {
+    object-fit: contain;
+   margin-bottom: 40px;
+}
+/* --------------nav-----------------------*/
+.nav {
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background-color: #515151;
+}
+.nav a{
+    text-decoration: none;
+    line-height: 40px;
+    margin-right: 23px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 23px;
+    padding-right: 23px;
+    color: #fff;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    font-family: sans-serif;
+}
+.nav a:hover {
+    background-color: #444;
+    border-right: 1px solid #838383;
+    border-left: 1px solid #838383;
+}
+
+/* ---------------nav light------ ---------------*/
+ 
+.nav.light {
+    display: block;
+    margin-top: 59px;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    background-color: #e1e1e1;
+    clear: both;
+}
+
+.nav.light a{
+    text-decoration: none;
+    line-height: 40px;
+    margin-right: 23px;
+    height: 40px;
+    display: inline-block;
+    padding-left: 23px;
+    padding-right: 23px;
+    color: #2c2c2c;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    font-family: sans-serif;
+}
+
+.nav.light a:hover {
+    background-color: transparent;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    text-decoration: underline;
+}
+
+/* ---------------sidebar---------------------*/
+ 
+.sidebar {
+    color: #979696;
+    list-style: none;
+    margin-top: 40px;
+    width: 240px;
+    float: left;
+    margin-right: 40px;
+}
+.sidebar li {
+    border: 1px solid #c8c8c8;
+    height: 40px;
+    width: 240px;
+    line-height: 40px;
+    padding-left: 22px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #656363;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #f9f9f9;
+    text-indent: 14px;
+    color: #2c2c2c;
+    border: 1px solid transparent;
+}
+
+/* -----------------velo-------------------*/
+ 
+.velo {
+    display: block;
+    margin-top: 40px;
+    border: 1px solid #c8c8c8;
+    padding-left: 89px;
+    padding-top: 49px;
+}
+
+/* -------------------lorem-----------------*/
+ 
+.lorem {
+    width: 628px;
+    float: right;
+    margin-top: 39px;
+    margin-right: 98px;
+    padding-left: 68px;
+    color: #979797;
+    margin-bottom: 59px;
+}
+
+/* ----------------nav light.span---------*/
+ 
+.nav.light span {
+    text-align: right;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 40px;
+    margin-left: 157px;
+    height: 40px;
+    display: inline-block;
+    color: #2c2c2c;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    font-family: sans-serif;
+}
+
+/* ----------------Finish------------------*/
